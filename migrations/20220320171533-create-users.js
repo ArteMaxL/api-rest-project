@@ -18,10 +18,6 @@ module.exports = {
             },
             id_role: {
                 type: Sequelize.INTEGER,
-                references: {
-                    model: 'Roles',
-                    key: 'id'
-                }
             },
             createdAt: {
                 allowNull: false,
